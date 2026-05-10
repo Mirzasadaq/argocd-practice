@@ -52,8 +52,7 @@ pipeline {
       }
     }
     stage('Update Deployment File') {
-		agent any
-        environment {
+		environment {
             GIT_REPO_NAME = "argocd-practice"
             GIT_USER_NAME = "Mirzasadaq"
         }
