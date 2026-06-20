@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: mirzasadaq/argocd-app:replaceImageTag
+        image: mirzasadaq/argocd-app:1
         ports:
         - containerPort: 8080
